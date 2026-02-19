@@ -20,7 +20,7 @@
   "scripts": {
     "prepublishOnly": "yarn build",
     "clean": "rm -rf bundles",
-    "build": "builder build plugin"
+    "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js --no-checksum"
   },
   "dependencies": {
     "@yarnpkg/core": "4.5.0",

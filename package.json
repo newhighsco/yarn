@@ -19,8 +19,11 @@
   "type": "module",
   "scripts": {
     "prepare": "husky",
+    "clean": "yarn workspaces foreach --all run clean",
     "build": "yarn workspaces foreach --all run build",
+    "pretest": "echo pretest",
     "test": "yarn lint",
+    "posttest": "echo posttest",
     "lint": "concurrently 'yarn:lint:*'",
     "lint:js": "eslint --cache .",
     "format": "concurrently 'yarn:format:*'",

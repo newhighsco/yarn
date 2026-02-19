@@ -9,10 +9,15 @@ workflows:
     jobs:
       - newhighsco/setup:
           name: setup
+      - newhighsco/build:
+          name: build
+          requires:
+            - setup
+          path-to-persist: packages/yarn-plugin-preset/bundles
       - newhighsco/test:
           name: test
           requires:
-            - setup
+            - build
       - newhighsco/release:
           name: release
           command: GITHUB_ASSETS=bundles yarn multi-semantic-release
