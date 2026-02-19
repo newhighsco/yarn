@@ -1,0 +1,29 @@
+{
+  "name": "@newhighsco/yarn-plugin-preset",
+  "description": "New High Score shareable Yarn plugins",
+  "version": "1.0.0",
+  "author": "New High Score",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/yarn.git",
+    "directory": "packages/yarn-plugin-preset"
+  },
+  "homepage": "https://github.com/newhighsco/yarn/tree/main/packages/yarn-plugin-preset#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/yarn/issues"
+  },
+  "main": "src/index.ts",
+  "files": [
+    "bundles"
+  ],
+  "scripts": {
+    "prepublishOnly": "yarn build",
+    "clean": "rm -rf bundles",
+    "build": "builder build plugin"
+  },
+  "dependencies": {
+    "@yarnpkg/core": "4.5.0",
+    "@yarnpkg/shell": "4.1.3"
+  }
+}

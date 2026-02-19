@@ -1,0 +1,26 @@
+version: 2.1
+
+orbs:
+  newhighsco: newhighsco/orb@1.14.0
+
+workflows:
+  version: 2
+  test_and_release:
+    jobs:
+      - newhighsco/setup:
+          name: setup
+      - newhighsco/test:
+          name: test
+          requires:
+            - setup
+      - newhighsco/release:
+          name: release
+          environment:
+            GITHUB_ASSETS: bundles
+          command: yarn multi-semantic-release
+          requires:
+            - test
+          filters:
+            branches:
+              only:
+                - main

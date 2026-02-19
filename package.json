@@ -1,0 +1,64 @@
+{
+  "name": "@newhighsco/yarn",
+  "description": "New High Score Yarn plugins",
+  "author": "New High Score",
+  "license": "ISC",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/newhighsco/yarn.git"
+  },
+  "homepage": "https://github.com/newhighsco/yarn#readme",
+  "bugs": {
+    "url": "https://github.com/newhighsco/yarn/issues"
+  },
+  "packageManager": "yarn@4.12.0",
+  "type": "module",
+  "scripts": {
+    "prepare": "husky",
+    "build": "yarn workspaces foreach --all run build",
+    "test": "yarn lint",
+    "lint": "concurrently 'yarn:lint:*'",
+    "lint:js": "eslint --cache .",
+    "format": "concurrently 'yarn:format:*'",
+    "format:js": "yarn lint:js --fix"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.4.1",
+    "@newhighsco/commitlint-config": "1.1.48",
+    "@newhighsco/editor-config": "1.2.0",
+    "@newhighsco/eslint-config": "7.0.5",
+    "@newhighsco/prettier-config": "2.3.3",
+    "@newhighsco/release-config": "1.4.25",
+    "@newhighsco/ts-config": "1.0.2",
+    "@qiwi/multi-semantic-release": "7.1.2",
+    "@types/node": "25.2.3",
+    "@yarnpkg/builder": "4.2.3",
+    "concurrently": "9.2.1",
+    "eslint": "10.0.0",
+    "husky": "9.1.7",
+    "prettier": "3.8.1",
+    "semantic-release": "25.0.3",
+    "typescript": "5.9.3"
+  },
+  "commitlint": {
+    "extends": [
+      "@newhighsco"
+    ]
+  },
+  "multi-release": {
+    "sequentialInit": true
+  },
+  "prettier": "@newhighsco/prettier-config",
+  "release": {
+    "extends": "@newhighsco/release-config"
+  },
+  "stylelint": {
+    "extends": [
+      "@newhighsco/stylelint-config"
+    ]
+  }
+}
