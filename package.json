@@ -53,6 +53,7 @@
     ]
   },
   "multi-release": {
+    "ignorePrivate": false,
     "sequentialInit": true
   },
   "prettier": "@newhighsco/prettier-config",
