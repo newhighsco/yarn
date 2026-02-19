@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "New High Score",
   "license": "ISC",
+  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/newhighsco/yarn.git",
