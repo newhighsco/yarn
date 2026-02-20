@@ -23,7 +23,7 @@
     "postinstall": "node scripts/postinstall.js",
     "prepublishOnly": "yarn build",
     "clean": "rm -rf bundles",
-    "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js --no-checksum"
+    "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js"
   },
   "dependencies": {
     "@yarnpkg/core": "4.5.0",
