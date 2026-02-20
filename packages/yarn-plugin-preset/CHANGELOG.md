@@ -1,3 +1,10 @@
+## @newhighsco/yarn-plugin-preset [1.1.1](https://github.com/newhighsco/yarn/compare/@newhighsco/yarn-plugin-preset@1.1.0...@newhighsco/yarn-plugin-preset@1.1.1) (2026-02-20)
+
+
+### Bug Fixes
+
+* remove tsx ([#11](https://github.com/newhighsco/yarn/issues/11)) ([462add9](https://github.com/newhighsco/yarn/commit/462add989924127a46d63622b4cc00ac11270475))
+
 # @newhighsco/yarn-plugin-preset [1.1.0](https://github.com/newhighsco/yarn/compare/@newhighsco/yarn-plugin-preset@1.0.0...@newhighsco/yarn-plugin-preset@1.1.0) (2026-02-20)
 
 
