@@ -1,3 +1,10 @@
+# @newhighsco/yarn-plugin-preset [1.1.0](https://github.com/newhighsco/yarn/compare/@newhighsco/yarn-plugin-preset@1.0.0...@newhighsco/yarn-plugin-preset@1.1.0) (2026-02-20)
+
+
+### Features
+
+* automate install ([#9](https://github.com/newhighsco/yarn/issues/9)) ([a596c2e](https://github.com/newhighsco/yarn/commit/a596c2e2330588aa8ca3b59e180f3b31eceef526)), closes [#1](https://github.com/newhighsco/yarn/issues/1)
+
 # @newhighsco/yarn-plugin-preset 1.0.0 (2026-02-19)
 
 
