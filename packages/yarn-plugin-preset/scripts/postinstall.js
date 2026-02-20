@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { execute } from '@yarnpkg/shell'
 
 import packageJson from '../package.json' with { type: 'json' }
