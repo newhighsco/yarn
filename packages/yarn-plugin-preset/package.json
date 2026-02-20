@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "author": "New High Score",
   "license": "ISC",
-  "private": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/newhighsco/yarn.git",
@@ -14,11 +13,14 @@
   "bugs": {
     "url": "https://github.com/newhighsco/yarn/issues"
   },
+  "type": "module",
   "main": "src/index.ts",
   "files": [
-    "bundles"
+    "bundles",
+    "scripts"
   ],
   "scripts": {
+    "postinstall": "tsx scripts/postinstall",
     "prepublishOnly": "yarn build",
     "clean": "rm -rf bundles",
     "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js --no-checksum"
@@ -26,5 +28,9 @@
   "dependencies": {
     "@yarnpkg/core": "4.5.0",
     "@yarnpkg/shell": "4.1.3"
+  },
+  "devDependencies": {
+    "@yarnpkg/builder": "4.2.3",
+    "tsx": "4.21.0"
   }
 }
