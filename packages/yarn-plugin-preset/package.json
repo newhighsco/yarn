@@ -20,17 +20,16 @@
     "scripts"
   ],
   "scripts": {
-    "postinstall": "tsx scripts/postinstall",
+    "postinstall": "node scripts/postinstall.js",
     "prepublishOnly": "yarn build",
     "clean": "rm -rf bundles",
-    "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js --no-checksum"
+    "build": "builder build plugin && yarn plugin import ./bundles/@yarnpkg/plugin-preset.js"
   },
   "dependencies": {
     "@yarnpkg/core": "4.5.0",
     "@yarnpkg/shell": "4.1.3"
   },
   "devDependencies": {
-    "@yarnpkg/builder": "4.2.3",
-    "tsx": "4.21.0"
+    "@yarnpkg/builder": "4.2.3"
   }
 }
