@@ -1,3 +1,10 @@
+## @newhighsco/yarn-plugin-preset [1.1.3](https://github.com/newhighsco/yarn/compare/@newhighsco/yarn-plugin-preset@1.1.2...@newhighsco/yarn-plugin-preset@1.1.3) (2026-04-16)
+
+
+### Bug Fixes
+
+* **deps:** update yarn monorepo ([#83](https://github.com/newhighsco/yarn/issues/83)) ([ff07d58](https://github.com/newhighsco/yarn/commit/ff07d58369bfb9ef9d1243c9857edd032db95203))
+
 ## @newhighsco/yarn-plugin-preset [1.1.2](https://github.com/newhighsco/yarn/compare/@newhighsco/yarn-plugin-preset@1.1.1...@newhighsco/yarn-plugin-preset@1.1.2) (2026-03-19)
 
 
