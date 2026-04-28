@@ -36,7 +36,7 @@
     "@newhighsco/eslint-config": "7.0.53",
     "@newhighsco/prettier-config": "2.3.5",
     "@newhighsco/release-config": "1.4.27",
-    "@newhighsco/ts-config": "1.0.2",
+    "@newhighsco/ts-config": "1.1.0",
     "@newhighsco/yarn-plugin-preset": "*",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@types/node": "24.12.2",

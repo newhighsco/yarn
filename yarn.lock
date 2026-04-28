@@ -908,10 +908,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/ts-config@npm:1.0.2":
-  version: 1.0.2
-  resolution: "@newhighsco/ts-config@npm:1.0.2"
-  checksum: 10c0/b595035c8e5ce878231a7777072356e0b099ffe69ba37bd96f86c104f7a18a6db5524c7fcfea843de7f906590e6916d055e58e1392bfd5aa09d566b91a1d3e63
+"@newhighsco/ts-config@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@newhighsco/ts-config@npm:1.1.0"
+  checksum: 10c0/2e70894a5f282a3b9cec4b4abe77d1d80a25b5a0cbc1474c7ced0b31c150d0b4faf997106e4817212791155d72b116194d6c5489c52f691ade2ff5735e1120f6
   languageName: node
   linkType: hard
 
@@ -935,7 +935,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.0.53"
     "@newhighsco/prettier-config": "npm:2.3.5"
     "@newhighsco/release-config": "npm:1.4.27"
-    "@newhighsco/ts-config": "npm:1.0.2"
+    "@newhighsco/ts-config": "npm:1.1.0"
     "@newhighsco/yarn-plugin-preset": "npm:*"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
     "@types/node": "npm:24.12.2"
