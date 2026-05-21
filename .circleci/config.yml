@@ -21,6 +21,8 @@ workflows:
       - newhighsco/release:
           name: release
           command: GITHUB_ASSETS=bundles yarn multi-semantic-release
+          context:
+            - release
           requires:
             - test
           filters:
