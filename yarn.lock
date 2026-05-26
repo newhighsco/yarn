@@ -905,9 +905,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@newhighsco/release-config@npm:1.4.28":
-  version: 1.4.28
-  resolution: "@newhighsco/release-config@npm:1.4.28"
+"@newhighsco/release-config@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@newhighsco/release-config@npm:1.5.0"
   dependencies:
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/commit-analyzer": "npm:13.0.1"
@@ -921,7 +921,7 @@ __metadata:
   peerDependenciesMeta:
     semantic-release-circleci-orb:
       optional: true
-  checksum: 10c0/0ce3479933f5e7321b72b77e3ba7150ef36a9d3df0bd7c0082a5bcaacc0b7971e13e80e943fa56cb70b2a32c391f8af2065129d8d2547f9ba088b38d6e48528d
+  checksum: 10c0/17d5c864cf9574284c634f38c216aa6e17530a6fa35c950aba45f186b58576f0af772928fdbf882835998175053c1ceb37dde42eca052f416e14cd10d8729dee
   languageName: node
   linkType: hard
 
@@ -955,7 +955,7 @@ __metadata:
     "@newhighsco/eslint-config": "npm:7.1.2"
     "@newhighsco/lint-staged-config": "npm:1.1.0"
     "@newhighsco/prettier-config": "npm:2.3.5"
-    "@newhighsco/release-config": "npm:1.4.28"
+    "@newhighsco/release-config": "npm:1.5.0"
     "@newhighsco/ts-config": "npm:1.2.2"
     "@newhighsco/yarn-plugin-preset": "npm:*"
     "@qiwi/multi-semantic-release": "npm:7.1.2"
