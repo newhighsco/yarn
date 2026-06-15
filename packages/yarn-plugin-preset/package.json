@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@yarnpkg/builder": "4.2.3",
-    "@yarnpkg/core": "4.8.0"
+    "@yarnpkg/core": "4.9.0"
   }
 }
