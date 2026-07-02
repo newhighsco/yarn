@@ -36,7 +36,7 @@
     "@newhighsco/eslint-config": "7.1.17",
     "@newhighsco/lint-staged-config": "1.1.0",
     "@newhighsco/prettier-config": "2.3.11",
-    "@newhighsco/release-config": "1.5.1",
+    "@newhighsco/release-config": "1.5.2",
     "@newhighsco/ts-config": "1.2.2",
     "@newhighsco/yarn-plugin-preset": "*",
     "@qiwi/multi-semantic-release": "7.1.2",
