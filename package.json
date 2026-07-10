@@ -42,7 +42,7 @@
     "@qiwi/multi-semantic-release": "7.1.2",
     "@types/node": "24.13.3",
     "concurrently": "10.0.3",
-    "eslint": "10.6.0",
+    "eslint": "10.7.0",
     "husky": "9.1.7",
     "lint-staged": "17.0.8",
     "prettier": "3.9.5",
