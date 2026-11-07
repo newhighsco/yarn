@@ -41,7 +41,7 @@
     "@newhighsco/yarn-plugin-preset": "*",
     "@qiwi/multi-semantic-release": "7.1.2",
     "@types/node": "26.6.6",
-    "concurrently": "10.0.6",
+    "concurrently": "10.0.7",
     "eslint": "10.14.0",
     "husky": "9.1.7",
     "lint-staged": "17.6.0",
